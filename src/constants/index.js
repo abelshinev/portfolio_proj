@@ -1,8 +1,7 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  python,
+  mysql,
+  cpp,
   javascript,
   typescript,
   html,
@@ -42,21 +41,37 @@ export const navLinks = [
   
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Javascript",
+    icon: javascript,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React",
+    icon: reactjs,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "C++",
+    icon: cpp,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Redux",
+    icon: redux,
   },
+  {
+    title: "NodeJS",
+    icon: nodejs
+  },
+  {
+    title: "Python",
+    icon: python
+  },
+  {
+    title: "Git Version Control",
+    icon: git
+  },
+  {
+    title: "MySQL",
+    icon: mysql
+  }
 ];
   
 const technologies = [
