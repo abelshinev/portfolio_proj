@@ -1,0 +1,2 @@
+public/saturn/*.bin filter=lfs diff=lfs merge=lfs -text
+public/saturn/saturnedit.bin filter=lfs diff=lfs merge=lfs -text
