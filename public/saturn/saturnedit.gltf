@@ -1680,47 +1680,47 @@
 		{
 			"mimeType":"image/png",
 			"name":"Enceladus_diffuse",
-			"uri":"Enceladus_diffuse.png"
+			"uri":"textures/Enceladus_diffuse.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"Enceladus_diffuse",
-			"uri":"Enceladus_diffuse-1.png"
+			"uri":"textures/Enceladus_diffuse-1.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"Mimas_diffuse",
-			"uri":"Mimas_diffuse.png"
+			"uri":"textures/Mimas_diffuse.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"Mimas_diffuse",
-			"uri":"Mimas_diffuse-1.png"
+			"uri":"textures/Mimas_diffuse-1.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"saturn1_A_diffuse",
-			"uri":"saturn1_A_diffuse.png"
+			"uri":"textures/saturn1_A_diffuse.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"saturn1_A_specularGlossiness",
-			"uri":"saturn1_A_specularGlossiness.png"
+			"uri":"textures/saturn1_A_specularGlossiness.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"saturn2_A_specularGlossiness",
-			"uri":"saturn2_A_specularGlossiness.png"
+			"uri":"textures/saturn2_A_specularGlossiness.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"saturn2_A_specularGlossiness",
-			"uri":"saturn2_A_specularGlossiness-1.png"
+			"uri":"textures/saturn2_A_specularGlossiness-1.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"saturn2_B_diffuse",
-			"uri":"saturn2_B_diffuse.png"
+			"uri":"textures/saturn2_B_diffuse.png"
 		}
 	],
 	"accessors":[
