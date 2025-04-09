@@ -9,10 +9,6 @@ const Saturn = () => {
     const saturn = useGLTF('/saturn/saturnedit.gltf'); // Ensure path is correct
     console.log("Saturn model loaded:", saturn);
 
-const Saturn = () => {
-
-    const saturn = useGLTF('/saturn/saturnedit.gltf'); // ✅ Always called, no conditionals
-
     useEffect(() => {
       if (!saturn) {
         console.warn('[Saturn] saturn is undefined');
