@@ -1,13 +1,24 @@
-import { Suspense } from 'react';
+import { Suspense, useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
 
 import Loader from '../Loader';
 
-const Saturn = () => {
-    const saturn = useGLTF('/saturn/saturnedit.gltf'); // Ensure path is correct
 
+const Saturn = () => {
+
+    const saturn = useGLTF('/saturn/saturnedit.gltf'); // ✅ Always called, no conditionals
+
+    useEffect(() => {
+      if (!saturn) {
+        console.warn('[Saturn] saturn is undefined');
+      } else {
+        console.log('[Saturn] ✅ Loaded:', saturn);
+        console.log('[Saturn] Nodes:', saturn.nodes);
+        console.log('[Saturn] Scene:', saturn.scene);
+      }
+    }, [saturn]);
 
     return (
         <>
