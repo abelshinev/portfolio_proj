@@ -6,7 +6,7 @@ import * as THREE from 'three';
 import Loader from '../Loader';
 
 const Saturn = () => {
-    const saturn = useGLTF('/saturn/saturnedit.glb'); // Ensure path is correct
+    const saturn = useGLTF('https://storage.googleapis.com/saturn-3d-asset/saturnedit.glb'); // Ensure path is correct
     console.log("Saturn model loaded:", saturn);
 
     useEffect(() => {
