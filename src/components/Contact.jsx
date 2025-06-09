@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { EarthCanvas } from './canvas'

@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles'
-import { ComputersCanvas, StarsCanvas, SaturnCanvas } from './canvas';
+import {  StarsCanvas, SaturnCanvas } from './canvas';
 
 
 const Hero = () => {
